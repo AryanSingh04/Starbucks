@@ -23,3 +23,14 @@ display.src = link
 function color(link){
  circle.style.background = link
 }
+function color(link){
+ circle.style.background = link
+}
+gsap.from("#display",{
+    y:50,
+  repeat:-1,
+    duration:2.5,
+   yoyo:5,
+  
+   
+}) 
