@@ -17,12 +17,15 @@ dash.onclick = function(){
 
 function change(link){
    
-display.src = link
+display.src = link;
+gsap.from("#display",{
+    x:500,
+    y:-500,
+   
+}) 
+
 }
 
-function color(link){
- circle.style.background = link
-}
 function color(link){
  circle.style.background = link
 }
